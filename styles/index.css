@@ -105,7 +105,7 @@ header{
 
 /* HERO */
 .hero{
-    background-image: url("/assets/Background.png");
+    background-image: url("../assets/Background.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
