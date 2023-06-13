@@ -1,0 +1,537 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    --color-1:#F0A83E;
+    --color-2:#222222;
+    --color-3:#FFFFFF;
+    --color-4:#3C2313;
+    --color-5:#666666;
+    --color-6:#8A8787;
+    --color-7:#FBFAF6;
+    --color-8:#AB9C9C;
+    --color-9:#A0A0A0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:var(--color-3);
+    text-decoration: none;
+}
+
+button{
+    background: #8A8787;
+    border-radius: 25px;
+    border:none;
+    font-weight: 400;
+    padding: 18px 55px;
+}
+
+/* HEADER */
+
+header{
+    max-width: 100%;
+    width: 100%;
+}
+
+.discount-container{
+    align-items: center;
+    background-color: var(--color-2);
+    display: none;
+    justify-content: space-between;
+    max-width: calc(100% - 180px);
+    padding: 4px 90px;
+    width: 100%;
+}
+
+.language, .currency{
+    background-color: transparent;
+    border: none;
+}
+
+.language-currency{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 15%;
+    width: 100%;
+}
+
+.nav-container{
+    align-items: center;
+    background-color: var(--color-1);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 80px);
+    padding: 17px 40px;
+    width: 100%;
+}
+
+.mobile-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobile-container button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.desktop-container{
+    display: none;
+}
+
+.header-title-img{
+
+}
+
+.nav-list-container{
+    max-width: 40%;
+    width: 100%;
+}
+
+.nav-list{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* HERO */
+.hero{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height:440px;
+}
+
+.hero-info{
+    align-items: end;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: center;
+    margin:auto;
+    max-width: calc(100% - 50px);
+    text-align: center;
+    width: 100%;
+}
+
+.hero-info-nice{
+    background-color: var(--color-3);
+    color:var(--color-4);
+    padding: 12px 39px;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.hero-info-discount{
+    color:var(--color-4);
+    margin-bottom: 12px;
+}
+
+.hero-info-button{
+    background-color: var(--color-1);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 23px;
+}
+
+.featured-products{
+    margin: 0px auto;
+    max-width: calc(100% - 144px);
+    width: 100%;
+}
+
+.featured-products-header{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 30px;
+    /* justify-content: center; */
+}
+
+.featured-products-header img{
+    margin-bottom: 15px;
+    max-width: 90px;
+    width: 100%;
+}
+
+.featured-products-header h2{
+    color:var(--color-4);
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 26px;
+    max-width: calc(100% - 120px);
+    text-align: center;
+    width: 100%;
+}
+
+.featured-products-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    max-width: 270px;
+    width: 100%;
+}
+
+.featured-products-container p{
+    color:var(--color-5);
+    margin-bottom: 50px;
+}
+
+.card-container{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: calc(100% - 40px);
+    width: 100%;
+}
+
+.card-container .card{
+    background-color: var(--color-7);
+    margin-bottom: 25px;
+    max-width: 237px;
+    width: 100%;
+}
+
+.card-container .card img{
+    width: 100%;
+}
+
+.card-container .card .card-info{
+    text-align: center;
+}
+
+.card-container .card .card-info p:first-of-type{
+    color: var(--color-4);
+    padding-bottom: 10px;
+}
+
+.card-container .card .card-info p:last-of-type{
+    color: var(--color-1);
+    padding-bottom: 10px;
+}
+
+.contact-us{
+    max-width: 100%;
+    width: 100%;
+    margin: 35px auto 75px;
+}
+
+.contact-us form{
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto 16px;
+}
+
+.contact-us form h2{
+    color:var(--color-4);
+    font-size: 3rem;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 26px;
+    max-width: 100%;
+
+    text-align: center;
+    width: 100%;
+}
+
+.contact-us form .contact-us-input-container{
+    margin: auto;
+    max-width: calc(100% - 116px);
+    width: 100%;
+}
+
+.contact-us form .contact-us-input-container .input-form{
+    background: #3C2313;
+    border-radius: 15px;
+    border:none;
+    color:var(--color-8);
+    margin-bottom: 5px;
+    max-width: calc(100% - 20px);
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.contact-us form .contact-us-input-container .input-form:last-of-type{
+    margin-bottom: 48px;
+}
+
+.contact-us form .button-container{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 100%;
+    width: 100%;
+}
+
+.contact-us form .button-container button{
+    max-width: 45%;
+    width: 100%;
+}
+
+.contact-us form .button-container button:last-of-type{
+    background: var(--color-1);
+}
+
+.subscription{
+    align-items: center;
+    background-color: var(--color-1);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    max-width: calc(100% - 46px);
+    padding: 15px 23px;
+    width: 100%;
+}
+
+.subscription .subscription-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.subscription .subscription-title img{
+    margin-right: 24px;
+   
+}
+
+.subscription .subscription-title span{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.subscription .subscription-formulary{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.subscription .subscription-formulary input{
+    background: var(--color-3);
+    border-radius: 15px;
+    border: none;
+    color:var(--color-9);
+    flex-grow: 1;
+    font-size: 0.5rem;
+    padding: 15px 8px;
+    margin-right: 5px;
+    max-width: 271px;
+    width: 100%;
+}
+
+.subscription .subscription-formulary button{
+    background: var(--color-4);
+    border-radius: 15px;
+    flex-grow: 1;
+    font-size: 1rem;
+    max-width: 100px;
+    padding: 9px;
+    width: 100%;
+}
+
+footer{
+    background-color: var(--color-4);
+    max-width: 100%;
+    width: 100%;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 11px 0 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.footer a{
+    padding: 0 0 19px 0;
+}
+
+.footer-info{
+    margin-left: 87px;
+    max-width: calc(100% - 87px);
+    width: 100%;
+}
+
+.footer-element{
+    display: flex;
+    margin-bottom: 29px;
+    width: 100%;
+}
+
+.footer-element img{
+    margin-right: 15px;
+}
+
+.footer-element div p{
+    font-size: 1.5rem;    
+}
+
+.footer-element div p:last-of-type{
+    color:var(--color-6);
+    font-size: .75rem;    
+}
+
+.credits{
+    background-color: var(--color-2);
+    font-size: 0.75rem;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 590px) {
+    .featured-products {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 848px) and (max-width: 1023px) {
+    .featured-products{
+        max-width: calc(100% - 144px);
+    }
+    
+    .featured-products-header h2{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile-container{
+        display: none;
+    }
+    
+    .desktop-container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .discount-container{
+        display: flex;
+    }
+
+    .hero{
+        background-position: center;
+        height:409px;
+    }
+
+    .featured-products-container{
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .featured-products-header{
+        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 30px;
+        max-width: 100%;
+    }
+
+    .featured-products-header h2{
+        max-width: 100%;
+    }
+
+    .card-container{
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        max-width: calc(100% - 40px);
+        width: 100%;
+    }
+
+    .card-container .card{
+        background-color: var(--color-7);
+        margin-bottom: 25px;
+        max-width: 30%;
+        width: 100%;
+    }
+
+    .contact-us form{
+        /* max-width: 340px; */
+        max-width: 30%;
+        width: 100%;
+        margin: 35px auto 16px;
+    }
+
+    .contact-us form .contact-us-input-container{
+        max-width: 100%;
+    }
+
+    .contact-us form .button-container{
+        max-width: 90%;
+        width: 100%;
+        margin:auto;
+    }
+
+    .subscription{
+        flex-flow: row wrap;
+        max-width: calc(100% - 46px);
+    }
+    
+
+    .subscription .subscription-title img{
+        margin-right: 10px;
+    }
+    
+    .subscription .subscription-formulary{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        /* max-width: 40%; */
+        max-width: 25%;
+        width: 100%;
+    }
+
+    .subscription .subscription-formulary button{
+        font-size: 0.5rem;
+        max-width: 70px;
+    }
+
+    .footer{
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: center;
+    }
+
+    .footer a{
+        padding: 0 0 19px 0;
+        max-width: 50%;
+        width: 100%;
+        flex-grow: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-info{
+        margin-left: 0;
+        margin-left: 87px;
+        max-width: calc(50% - 87px);
+        width: 100%;
+        flex-grow: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    
+}
